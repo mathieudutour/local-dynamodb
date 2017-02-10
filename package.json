@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "",
   "bin": {
-    "local-dynamodb": "java -Djava.library.path=./DynamoDBLocal_lib -jar dynamo/DynamoDBLocal.jar"
+    "local-dynamodb": "run.sh"
   },
   "scripts": {
     "postinstall": "./install.sh",
